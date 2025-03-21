@@ -1,16 +1,16 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class ValidationCodeRequest {
-    @PrimaryGeneratedColumn()
-    id: number;
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @Column({ unique: true })
-    userEmail: string;
+  @Column({ unique: true })
+  userEmail: string;
 
-    @Column({ unique: true })
-    code: string;
+  @Column({ unique: true })
+  code: string;
 
-    @Column({ type: 'timestamp with time zone' })
-    expDate: Date;
+  @Column({ type: 'timestamp with time zone' })
+  expDate: Date;
 }

@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="factory reset">
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: CORS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/entities/validation-code-request/validation-code-request.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/entities/validation-code-request/validation-code-request.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/dto/create-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/user.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +51,9 @@
     &quot;accountId&quot;: &quot;b4598129-9b17-4bee-bbf9-85337d0c0bc7&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -53,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.user.controller.ts.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -63,7 +76,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -95,7 +108,8 @@
       <workItem from="1742496003825" duration="66000" />
       <workItem from="1742515050268" duration="6978000" />
       <workItem from="1742570110563" duration="5414000" />
-      <workItem from="1742579750504" duration="1376000" />
+      <workItem from="1742579750504" duration="1875000" />
+      <workItem from="1742581656504" duration="4177000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -145,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742580257405</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pocket-money-api: CORS">
+      <option name="closed" value="true" />
+      <created>1742581430165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742581430165</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +189,7 @@
     <MESSAGE value="pocket-money-api: added user and veryfi code entities, and a seed script to insert a default admin user" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="factory reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory reset" />
+    <MESSAGE value="pocket-money-api: CORS" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: CORS" />
   </component>
 </project>
