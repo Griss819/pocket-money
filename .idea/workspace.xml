@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: registering users and validation code requests">
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: validating user inputs">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/dto/create-user.dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1742515050268" duration="6978000" />
       <workItem from="1742570110563" duration="5414000" />
       <workItem from="1742579750504" duration="1875000" />
-      <workItem from="1742581656504" duration="5804000" />
+      <workItem from="1742581656504" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742586207056</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pocket-money-api: validating user inputs">
+      <option name="closed" value="true" />
+      <created>1742587613872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742587613872</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="factory reset" />
     <MESSAGE value="pocket-money-api: CORS" />
     <MESSAGE value="pocket-money-api: registering users and validation code requests" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: registering users and validation code requests" />
+    <MESSAGE value="pocket-money-api: validating user inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: validating user inputs" />
   </component>
 </project>
