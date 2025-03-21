@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="factory reset" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="factory reset">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/user/user.module.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +95,7 @@
       <workItem from="1742496003825" duration="66000" />
       <workItem from="1742515050268" duration="6978000" />
       <workItem from="1742570110563" duration="5414000" />
-      <workItem from="1742579750504" duration="429000" />
+      <workItem from="1742579750504" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -133,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742580147869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="factory reset">
+      <option name="closed" value="true" />
+      <created>1742580257405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742580257405</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

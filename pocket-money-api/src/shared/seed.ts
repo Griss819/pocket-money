@@ -14,7 +14,7 @@ async function seedDefaultUser() {
         user.name = 'admin';
         user.email = 'admin@pocketmoney.com';
         user.isEmailConfirmed = true;
-        user.password = await passwordEncryptionService.hashPassword('hashed_password');
+        user.password = await passwordEncryptionService.hashPassword('ImASkatMan33241213@lamadrequetepario.com');
         await userRepository.save(user);
         console.log('Usuario por defecto creado.');
     } else {
