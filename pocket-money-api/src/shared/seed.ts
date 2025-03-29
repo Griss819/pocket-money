@@ -1,6 +1,7 @@
 import { AppDataSource } from '../config/typeorm.config';
 import { User } from '../entities/user/user.entity';
 import { PasswordEncryptionService } from './services/password-encryption.service';
+import { UserRoleType } from './enums/user-role-type.enum';
 
 async function seedDefaultUser() {
   await AppDataSource.initialize();
@@ -16,6 +17,7 @@ async function seedDefaultUser() {
     user.name = 'admin';
     user.email = 'admin@pocketmoney.com';
     user.isEmailConfirmed = true;
+    user.role = UserRoleType.Admin;
     user.password = await passwordEncryptionService.hashPassword(
       'ImASkatMan33241213@lamadrequetepario.com',
     );

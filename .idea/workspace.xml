@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: validating user inputs">
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/dto/payload.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/dto/refresh-token.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/interfaces/authenticated-request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/strategies/jwt.strategy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/resources.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/dto/update-user.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/enums/user-role.enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/services/mail.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: auth workflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/shared.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/dto/create-user.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/enums/user-role.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/enums/user-role-type.enum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +118,7 @@
       <workItem from="1742674234753" duration="11537000" />
       <workItem from="1742860337678" duration="8000" />
       <workItem from="1743184900201" duration="6298000" />
-      <workItem from="1743220572853" duration="5258000" />
+      <workItem from="1743220572853" duration="5842000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -215,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742587773906</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pocket-money-api: auth workflow">
+      <option name="closed" value="true" />
+      <created>1743225920359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743225920359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +233,7 @@
     <MESSAGE value="pocket-money-api: CORS" />
     <MESSAGE value="pocket-money-api: registering users and validation code requests" />
     <MESSAGE value="pocket-money-api: validating user inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: validating user inputs" />
+    <MESSAGE value="pocket-money-api: auth workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: auth workflow" />
   </component>
 </project>

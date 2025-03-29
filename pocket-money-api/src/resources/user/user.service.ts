@@ -5,6 +5,7 @@ import { User } from '../../entities/user/user.entity';
 import { CreateUserDto } from './dto/create-user.dto';
 import { PasswordEncryptionService } from '../../shared/services/password-encryption.service';
 import { ValidationCodeRequest } from '../../entities/validation-code-request/validation-code-request.entity';
+import { UserRoleType } from '../../shared/enums/user-role-type.enum';
 
 @Injectable()
 export class UserService {
@@ -23,6 +24,7 @@ export class UserService {
 
     const user = this.userRepository.create({
       ...createUserDto,
+      role: UserRoleType.RegularUser,
       password: hashedPassword,
       isEmailConfirmed: false,
     });

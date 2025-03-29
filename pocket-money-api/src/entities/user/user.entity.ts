@@ -1,9 +1,10 @@
 import {
-  Entity,
-  PrimaryGeneratedColumn,
   Column,
   CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
 } from 'typeorm';
+import { UserRoleType } from '../../shared/enums/user-role-type.enum';
 
 @Entity()
 export class User {
@@ -21,6 +22,9 @@ export class User {
 
   @Column()
   isEmailConfirmed: boolean;
+
+  @Column({ default: UserRoleType.RegularUser })
+  role: number;
 
   @CreateDateColumn({ type: 'timestamp with time zone' })
   createdAt: Date;
