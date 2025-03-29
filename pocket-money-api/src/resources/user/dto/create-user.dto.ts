@@ -1,7 +1,7 @@
 import { IsNotEmpty, Matches, MaxLength, MinLength } from 'class-validator';
 
 export class CreateUserDto {
-  @IsNotEmpty()
+  @IsNotEmpty({ message: 'El campo de nombre es obligatorio' })
   @Matches(/^[a-zA-Z0-9]+$/, {
     message: 'El nombre de usuario solo puede contener letras y números.',
   })
@@ -14,14 +14,14 @@ export class CreateUserDto {
   @IsNotEmpty()
   email: string;
 
-  @IsNotEmpty()
+  @IsNotEmpty({ message: 'El campo de la contrasña es obligatorio' })
   @Matches(/^[^'"<>]*$/, {
     message: 'La contraseña no puede contener los caracteres \', ", < o >.',
   })
   @Matches(/^\S*$/, {
     message: 'La contraseña no puede contener espacios en blanco.',
   })
-  @Matches(/^(?=.*\d)(?=.*[A-Z])$/, {
+  @Matches(/^(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).+$/, {
     message:
       'La contraseña debe tener al menos un número, una letra mayúscula, un carácter no alfanumérico. ',
   })

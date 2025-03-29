@@ -1,10 +1,10 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { User } from '../entities/user/user.entity';
+import { User } from '../../entities/user/user.entity';
 import { CreateUserDto } from './dto/create-user.dto';
-import { PasswordEncryptionService } from '../shared/services/password-encryption.service';
-import { ValidationCodeRequest } from '../entities/validation-code-request/validation-code-request.entity';
+import { PasswordEncryptionService } from '../../shared/services/password-encryption.service';
+import { ValidationCodeRequest } from '../../entities/validation-code-request/validation-code-request.entity';
 
 @Injectable()
 export class UserService {
@@ -30,17 +30,32 @@ export class UserService {
     await this.userRepository.save(user);
 
     const now = new Date(Date.now());
-
-    const vcr = this.validationCodeRequestRepository.create({
-      userEmail: createUserDto.email,
-      expDate: new Date(now.getTime() + 10 * 60 * 1000),
-      code: this.generateRandomString(10),
-    });
-
-    return this.validationCodeRequestRepository.save(vcr);
+    try {
+      const vcr = this.validationCodeRequestRepository.create({
+        userEmail: createUserDto.email,
+        expDate: new Date(now.getTime() + 10 * 60 * 1000),
+        code: this.generateRandomString(10),
+      });
+      return this.validationCodeRequestRepository.save(vcr);
+    } catch {
+      await this.deleteUser(user);
+      throw new InternalServerErrorException();
+    }
   }
 
-  generateRandomString(length: number): string {
+  async updateUser(user: User) {
+    await this.userRepository.save(user);
+  }
+
+  async deleteUser(user: User) {
+    await this.userRepository.remove(user);
+  }
+
+  async findUserByEmail(email: string): Promise<User | null> {
+    return await this.userRepository.findOne({ where: { email: email } });
+  }
+
+  private generateRandomString(length: number): string {
     const characters =
       'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';

@@ -3,8 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { UserModule } from './user/user.module';
-import { SharedModule } from './shared/shared.module';
+import { ResourcesModule } from './resources/resources.module';
 
 @Module({
   imports: [
@@ -26,8 +25,7 @@ import { SharedModule } from './shared/shared.module';
         migrations: [__dirname + '/migrations/*{.ts,.js}'],
       }),
     }),
-    UserModule,
-    SharedModule,
+    ResourcesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
