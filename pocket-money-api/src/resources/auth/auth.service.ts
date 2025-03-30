@@ -23,16 +23,17 @@ export class AuthService {
     private readonly jwtService: JwtService,
   ) {}
 
-  async confirmRequestValidationToken(token: string) {
+  async confirmRequestValidationToken(code: string) {
     const vcr = await this.validationCodeRequestRepository.findOne({
-      where: { code: token },
+      where: { code: code },
     });
 
     if (!vcr) {
-      throw new NotFoundException(`Token de confirmación inválido`);
+      throw new NotFoundException(`Token de confirmación no encontrado`);
     }
-    if (vcr.expDate.getDate() < Date.now()) {
-      throw new NotFoundException(`Token de confirmación inválido`);
+
+    if (new Date() > new Date(vcr.expDate)) {
+      throw new NotFoundException(`Token de confirmación expirado`);
     }
 
     const existingUser = await this.userService.findUserByEmail(vcr.userEmail);

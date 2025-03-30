@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: auth workflow">
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: add role to users">
+      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/html-templates/register-mail.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/entities/user/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/enums/user-role.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/enums/user-role-type.enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/services/mail.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/services/mail.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +65,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.register-mail.template.html.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.user.controller.ts.executor&quot;: &quot;Debug&quot;,
     &quot;Node.js.user.service.ts.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -83,6 +88,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\migrations" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources\auth\passport-strategies" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money" />
@@ -118,7 +124,9 @@
       <workItem from="1742674234753" duration="11537000" />
       <workItem from="1742860337678" duration="8000" />
       <workItem from="1743184900201" duration="6298000" />
-      <workItem from="1743220572853" duration="5842000" />
+      <workItem from="1743220572853" duration="10567000" />
+      <workItem from="1743275072812" duration="1119000" />
+      <workItem from="1743359762305" duration="2534000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -208,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743225920359</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pocket-money-api: add role to users">
+      <option name="closed" value="true" />
+      <created>1743226612898</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743226612898</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +250,7 @@
     <MESSAGE value="pocket-money-api: registering users and validation code requests" />
     <MESSAGE value="pocket-money-api: validating user inputs" />
     <MESSAGE value="pocket-money-api: auth workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: auth workflow" />
+    <MESSAGE value="pocket-money-api: add role to users" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: add role to users" />
   </component>
 </project>

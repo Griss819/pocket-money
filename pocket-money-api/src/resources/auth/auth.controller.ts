@@ -42,7 +42,7 @@ export class AuthController {
   @Get('confirm-email')
   @HttpCode(200)
   async confirmEmail(@Query() params: { code: string }) {
-    console.log(params);
+    console.log(params.code);
     if (params.code == undefined || params.code == '')
       throw new BadRequestException();
     return await this.authService.confirmRequestValidationToken(params.code);

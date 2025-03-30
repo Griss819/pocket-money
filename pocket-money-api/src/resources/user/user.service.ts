@@ -52,7 +52,9 @@ export class UserService {
   async deleteUser(user: User) {
     await this.userRepository.remove(user);
   }
-
+  async deleteValidationCodeRequest(vcr: ValidationCodeRequest) {
+    await this.validationCodeRequestRepository.remove(vcr);
+  }
   async findUserByEmail(email: string): Promise<User | null> {
     return await this.userRepository.findOne({ where: { email: email } });
   }
