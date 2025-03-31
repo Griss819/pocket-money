@@ -1,0 +1,10 @@
+{
+  "HomePage": {
+    "title": "Hola Mundo!",
+    "about": "Acerca de nosotros"
+  },
+  "Metadata": {
+    "title": "PocketMoney",
+    "description": "App de gestión de economía para tu hogar"
+  }
+}

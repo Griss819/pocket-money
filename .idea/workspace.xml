@@ -4,34 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: multilanguage">
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: fresh restart">
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/messages/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/messages/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/i18n/navigation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/i18n/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/i18n/routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/locales/en/Home.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/locales/es/Home.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/next-i18next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/language-switch-button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/translation-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/shared/models/page-params.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/i18nConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/translate-middleware.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +64,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2uXwEJszL05DQTlCYKQQik0DfeK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -112,8 +102,8 @@
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\migrations" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources\auth\passport-strategies" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources" />
@@ -154,7 +144,7 @@
       <workItem from="1743359762305" duration="11973000" />
       <workItem from="1743428433141" duration="1536000" />
       <workItem from="1743434664550" duration="13000" />
-      <workItem from="1743434917225" duration="1271000" />
+      <workItem from="1743434917225" duration="5525000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -268,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743384101944</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="pocket-money-client: fresh restart">
+      <option name="closed" value="true" />
+      <created>1743436745157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1743436745157</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +295,18 @@
     <MESSAGE value="pocket-money-api: add role to users" />
     <MESSAGE value="pocket-money-api: email template and email confirmation" />
     <MESSAGE value="pocket-money-client: multilanguage" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: multilanguage" />
+    <MESSAGE value="pocket-money-client: fresh restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: fresh restart" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/next-intl/dist/types/shared/NextIntlClientProvider.d.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
