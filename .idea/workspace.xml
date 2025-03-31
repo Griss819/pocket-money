@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: add role to users">
-      <change afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/html-templates/register-mail.template.html" afterDir="false" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-api: email template and email confirmation">
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/locales/en/Home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/locales/es/Home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/next-i18next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/language-switch-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/translation-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/models/page-params.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/i18nConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/translate-middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/resources/user/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-api/src/shared/services/mail.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-api/src/shared/services/mail.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -62,36 +70,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.register-mail.template.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.user.controller.ts.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.user.service.ts.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/source/repos/pocket-money&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.register-mail.template.html.executor": "Run",
+    "Node.js.user.controller.ts.executor": "Debug",
+    "Node.js.user.service.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Rafael/source/repos/pocket-money/pocket-money-client/src/app/shared/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\migrations" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources\auth\passport-strategies" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources" />
-      <recent name="C:\Users\Rafael\source\repos\pocket-money" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -126,7 +140,7 @@
       <workItem from="1743184900201" duration="6298000" />
       <workItem from="1743220572853" duration="10567000" />
       <workItem from="1743275072812" duration="1119000" />
-      <workItem from="1743359762305" duration="2534000" />
+      <workItem from="1743359762305" duration="11364000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -224,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743226612898</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pocket-money-api: email template and email confirmation">
+      <option name="closed" value="true" />
+      <created>1743362490949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743362490949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +273,7 @@
     <MESSAGE value="pocket-money-api: validating user inputs" />
     <MESSAGE value="pocket-money-api: auth workflow" />
     <MESSAGE value="pocket-money-api: add role to users" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: add role to users" />
+    <MESSAGE value="pocket-money-api: email template and email confirmation" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-api: email template and email confirmation" />
   </component>
 </project>
