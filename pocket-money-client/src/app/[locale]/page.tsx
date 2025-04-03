@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { ThemeButton } from '@/app/shared/components/theme-button';
 import DefaultPanel from '@/app/shared/components/default-panel';
+import { LanguageSwitchButton } from '@/app/shared/components/language-switch-button';
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -13,7 +14,12 @@ export default function Home() {
       <div className={'main-content col-span-3'}>
         <div className={'main-header border-b-2 border-[var(--color-border)] p-4 flex flex-row justify-between items-center'}>
           header
-          <ThemeButton></ThemeButton>
+          <div className={'flex flex-row gap-2 items-center'}>
+            <LanguageSwitchButton></LanguageSwitchButton>
+            <ThemeButton></ThemeButton>
+          </div>
+
+
         </div>
         content here
         <DefaultPanel>
