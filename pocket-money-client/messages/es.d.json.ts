@@ -4,7 +4,9 @@
 declare const messages: {
   "HomePage": {
     "title": "Hola Mundo!",
-    "about": "Acerca de nosotros"
+    "about": "Acerca de nosotros",
+    "login": "Acceder",
+    "signin": "Registrarse"
   },
   "Metadata": {
     "title": "PocketMoney",

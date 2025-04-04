@@ -4,7 +4,9 @@
 declare const messages: {
   "HomePage": {
     "title": "Hello world!",
-    "about": "Go to the about page"
+    "about": "Go to the about page",
+    "login": "Log in",
+    "signin": "Sign in"
   },
   "Metadata": {
     "title": "PocketMoney",

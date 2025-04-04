@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: multy-theme and drop down menu">
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/language-switch-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/types/language.types.ts" afterDir="false" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: change language button">
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialog-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialogs/confirmation.dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialogs/register-form.dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/modal-provider/modal-provider.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/modal-provider/modal-provider.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/register-form-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/types/dynamic-component.types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/en.d.json.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/en.d.json.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/es.d.json.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/es.d.json.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +105,11 @@
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\dialogs" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\login-panel" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\migrations" />
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources\auth\passport-strategies" />
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\resources" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -141,7 +153,8 @@
       <workItem from="1743560581052" duration="3911000" />
       <workItem from="1743596612690" duration="14287000" />
       <workItem from="1743646654608" duration="214000" />
-      <workItem from="1743696216744" duration="2391000" />
+      <workItem from="1743696216744" duration="2841000" />
+      <workItem from="1743722100290" duration="8266000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -279,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743612141319</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="pocket-money-client: change language button">
+      <option name="closed" value="true" />
+      <created>1743698701412</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1743698701412</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +332,8 @@
     <MESSAGE value="pocket-money-client: fresh restart" />
     <MESSAGE value="pocket-money-client: internationalization" />
     <MESSAGE value="pocket-money-client: multy-theme and drop down menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: multy-theme and drop down menu" />
+    <MESSAGE value="pocket-money-client: change language button" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: change language button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

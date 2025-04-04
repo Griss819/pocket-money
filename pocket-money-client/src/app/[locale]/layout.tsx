@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import './globals.css';
 import { ThemeProvider } from '@/app/shared/components/theme-provider';
+import { ModalProvider } from '@/app/shared/components/modal-provider/modal-provider.context';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -40,7 +41,9 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider>
           <ThemeProvider>
-            {children}
+            <ModalProvider>
+              {children}
+            </ModalProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
