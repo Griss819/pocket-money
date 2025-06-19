@@ -1,0 +1,12 @@
+{
+  "HomePage": {
+    "title": "Hola Mundo!",
+    "about": "Acerca de nosotros",
+    "login": "Acceder",
+    "signin": "Registrarse"
+  },
+  "Metadata": {
+    "title": "PocketMoney",
+    "description": "App de gestión de economía para tu hogar"
+  }
+}
