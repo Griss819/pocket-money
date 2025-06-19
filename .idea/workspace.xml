@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: change language button">
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialog-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialogs/confirmation.dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/dialogs/register-form.dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/modal-provider/modal-provider.context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/modal-provider/modal-provider.hook.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/register-form-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/types/dynamic-component.types.ts" afterDir="false" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="pocket-money-client: home page">
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/home/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/home/sign-in/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-input-form-control.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-link-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/en.d.json.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/en.d.json.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/es.d.json.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/es.d.json.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/messages/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/messages/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/shared/components/default-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pocket-money-client/src/app/[locale]/home/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +77,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/source/repos/pocket-money/pocket-money-client/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafael/source/repos/pocket-money/pocket-money-client/src/app/shared/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -92,30 +86,30 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-api\\node_modules\\typescript\\lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Rafael\\source\\repos\\pocket-money\\pocket-money-client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\public" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components" />
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\public" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]\home" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\dialogs" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\login-panel" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client" />
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-api\src\migrations" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -154,7 +148,20 @@
       <workItem from="1743596612690" duration="14287000" />
       <workItem from="1743646654608" duration="214000" />
       <workItem from="1743696216744" duration="2841000" />
-      <workItem from="1743722100290" duration="8266000" />
+      <workItem from="1743722100290" duration="8575000" />
+      <workItem from="1743772755634" duration="885000" />
+      <workItem from="1743784102678" duration="2863000" />
+      <workItem from="1744826064244" duration="3797000" />
+      <workItem from="1744841281612" duration="33000" />
+      <workItem from="1744912549965" duration="3693000" />
+      <workItem from="1744990914689" duration="1193000" />
+      <workItem from="1745420324802" duration="1034000" />
+      <workItem from="1745430502811" duration="9671000" />
+      <workItem from="1745518360163" duration="2003000" />
+      <workItem from="1745532888699" duration="1262000" />
+      <workItem from="1745633811402" duration="389000" />
+      <workItem from="1745634354704" duration="9000" />
+      <workItem from="1750335564053" duration="2944000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -300,7 +307,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743698701412</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pocket-money-client: only god knows what happened here">
+      <option name="closed" value="true" />
+      <created>1743730801091</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1743730801091</updated>
+    </task>
+    <task id="LOCAL-00020" summary="pocket-money-client: home page">
+      <option name="closed" value="true" />
+      <created>1744916105562</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744916105562</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +356,9 @@
     <MESSAGE value="pocket-money-client: internationalization" />
     <MESSAGE value="pocket-money-client: multy-theme and drop down menu" />
     <MESSAGE value="pocket-money-client: change language button" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: change language button" />
+    <MESSAGE value="pocket-money-client: only god knows what happened here" />
+    <MESSAGE value="pocket-money-client: home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="pocket-money-client: home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
