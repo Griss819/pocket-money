@@ -1,5 +1,5 @@
-# 💸 PocketMoney - Home Expense Monitor
-Home Expense Monitor is a web-based platform designed to simplify daily expense tracking for households. It provides an intuitive and organized way to monitor, analyze, and improve your personal finances.
+# 💸 PocketMoney
+This is a web-based platform designed to simplify daily expense tracking for households. It provides an intuitive and organized way to monitor, analyze, and improve your personal finances.
 
 # 🔍 Features:
 Daily Expense Tracking — Record and review your expenses easily, day by day.
