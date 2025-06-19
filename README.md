@@ -1,7 +1,7 @@
-#💸 Home Expense Monitor
+# 💸 Home Expense Monitor
 Home Expense Monitor is a web-based platform designed to simplify daily expense tracking for households. It provides an intuitive and organized way to monitor, analyze, and improve your personal finances.
 
-#🔍 Features:
+# 🔍 Features:
 Daily Expense Tracking — Record and review your expenses easily, day by day.
 
 Monthly Reports — Visual summaries using interactive charts and tables that highlight spending patterns and comparisons.
