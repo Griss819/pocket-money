@@ -15,7 +15,7 @@ export default function DefaultInputFormControl({
   extraCss?: string,
   error: FieldError | undefined,
   type?: 'text' | 'password' | 'email' | 'number',
-  registerProps: ReturnType<UseFormRegister<any>>})
+  registerProps: ReturnType<UseFormRegister<object>>})
 {
   return (
     <div className={'flex flex-col ' + extraCss ? extraCss : ''}>
