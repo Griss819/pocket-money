@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="separate repos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/components/default-input-form-control.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/components/default-input-form-control.tsx" afterDir="false" />
+    <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="...">
+      <change beforePath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/components/modal-provider/modal-provider.context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/components/modal-provider/modal-provider.hook.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <workItem from="1750340820395" duration="3175000" />
       <workItem from="1750684480182" duration="24000" />
       <workItem from="1750700191605" duration="870000" />
-      <workItem from="1750703965313" duration="1667000" />
+      <workItem from="1750703965313" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -353,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750340944952</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="...">
+      <option name="closed" value="true" />
+      <created>1750705675952</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750705675952</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +397,8 @@
     <MESSAGE value="pocket-money-client: only god knows what happened here" />
     <MESSAGE value="pocket-money-client: home page" />
     <MESSAGE value="separate repos" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate repos" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
