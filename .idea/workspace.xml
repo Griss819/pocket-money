@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="199cd6c4-24f7-4a6b-a843-ba1585dc963c" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/src/messages/generate-message-declarations.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/es.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/request.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +94,11 @@
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafael\source\repos\pocket-money\src\messages" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\src" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]\home" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\dialogs" />
       <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\shared\components\login-panel" />
-      <recent name="C:\Users\Rafael\source\repos\pocket-money\pocket-money-client\src\app\[locale]" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -177,7 +175,8 @@
       <workItem from="1750340820395" duration="3175000" />
       <workItem from="1750684480182" duration="24000" />
       <workItem from="1750700191605" duration="870000" />
-      <workItem from="1750703965313" duration="5352000" />
+      <workItem from="1750703965313" duration="6149000" />
+      <workItem from="1750783587173" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="initial config">
       <option name="closed" value="true" />
@@ -387,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750708652936</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="...">
+      <option name="closed" value="true" />
+      <created>1750709485213</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750709485213</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
