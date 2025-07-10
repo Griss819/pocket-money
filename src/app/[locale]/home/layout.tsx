@@ -5,7 +5,7 @@ import DefaultButton from '@/app/shared/components/default-button';
 import { useTranslations } from 'next-intl';
 
 export default function HomeLayout({children,}: {children: React.ReactNode}) {
-  const t = useTranslations('HomePage');
+  const t = useTranslations('FormFields');
 
   return (
     <div className={'main-page h-[100vh]'}>
@@ -18,12 +18,12 @@ export default function HomeLayout({children,}: {children: React.ReactNode}) {
           <div className={'lg:flex flex-row gap-2 items-center hidden'}>
             <DefaultLinkButton link={"/signin"}>
               <div>
-                <em className={'fa fa-square-parking w-4 mr-2'}></em> {t('login')}
+                <em className={'fa fa-square-parking w-4 mr-2'}></em> {t('signIn')}
               </div>
             </DefaultLinkButton>
             <DefaultLinkButton link={"/signup"}>
               <div>
-                <em className={'fa fa-square-parking w-4 mr-2'}></em> {t('signin')}
+                <em className={'fa fa-square-parking w-4 mr-2'}></em> {t('signUp')}
               </div>
             </DefaultLinkButton>
             <LanguageSwitchButton></LanguageSwitchButton>

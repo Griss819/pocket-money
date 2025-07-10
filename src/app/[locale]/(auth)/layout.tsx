@@ -2,7 +2,7 @@ import { LanguageSwitchButton } from '@/app/shared/components/language-switch-bu
 import { ThemeButton } from '@/app/shared/components/theme-button';
 import DefaultButton from '@/app/shared/components/default-button';
 
-export default function AuthLayout({children,}: {children: React.ReactNode}) {
+export default function AuthLayout({children}: {children: React.ReactNode}) {
 
   return (
     <div className={'main-page h-[100vh]'}>
