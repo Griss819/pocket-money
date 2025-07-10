@@ -1,5 +1,5 @@
 export default function SignUpPage() {
-  return ({
-
-  });
+  return (
+    <div></div>
+  );
 }

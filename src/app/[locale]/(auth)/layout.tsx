@@ -1,10 +1,8 @@
-import { useTranslations } from 'next-intl';
 import { LanguageSwitchButton } from '@/app/shared/components/language-switch-button';
 import { ThemeButton } from '@/app/shared/components/theme-button';
 import DefaultButton from '@/app/shared/components/default-button';
 
 export default function AuthLayout({children,}: {children: React.ReactNode}) {
-  const t = useTranslations('HomePage');
 
   return (
     <div className={'main-page h-[100vh]'}>
