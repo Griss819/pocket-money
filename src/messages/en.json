@@ -1,12 +1,17 @@
 {
   "HomePage": {
     "title": "Hello world!",
-    "about": "Go to the about page",
-    "login": "Log in",
-    "signin": "Sign in"
+    "about": "Go to the about page"
   },
   "Metadata": {
     "title": "PocketMoney",
     "description": "Home finances app for you"
+  },
+  "FormFields": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "singInDesc": "Enter your credentials"
   }
 }

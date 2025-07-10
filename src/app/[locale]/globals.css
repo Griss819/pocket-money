@@ -50,11 +50,14 @@ body {
     .main-page {
         @apply grid grid-cols-5 mx-auto;
     }
+    .main-content {
+        @apply flex flex-col;
+    }
     .default-panel {
-        @apply grid grid-cols-1 rounded-lg text-[var(--color-text)] bg-[var(--color-panel-background)] border-[0.0625rem] border-[var(--color-border)] p-5 w-fit;
+        @apply grid grid-cols-1 rounded-lg text-[var(--color-text)] bg-[var(--color-panel-background)] drop-shadow-md p-5 w-fit;
     }
     .default-button {
-        @apply text-sm min-w-[38px] text-[var(--color-text)] rounded-lg bg-[var(--color-button-background)] border-[0.0625rem] border-[var(--color-border)] p-2 w-fit cursor-pointer hover:bg-[var(--color-button-background-hover)];
+        @apply text-sm min-w-[38px] text-[var(--color-text)] rounded-lg bg-[var(--color-button-background)] border-[0.1025rem] border-[var(--color-border)] p-2 w-fit cursor-pointer hover:bg-[var(--color-button-background-hover)];
     }
     .default-menu-item {
         @apply text-sm min-w-[38px] text-[var(--color-text)] rounded-lg p-2 w-fit cursor-pointer hover:bg-[var(--color-button-background-hover)];

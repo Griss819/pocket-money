@@ -1,14 +1,23 @@
 'use client'
 
 import DefaultPanel from '@/app/shared/components/default-panel';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className={'p-4 grid grid-cols-1 gap-8'}>
-      <div className={'flex justify-center items-center bg-slate-200 aspect-video rounded-lg w-full'}>
+      <div className="w-full max-h-[250px] overflow-hidden rounded-lg bg-slate-200 flex justify-center items-center">
+        <Image
+          src="/images/main-image.png"
+          alt="Main image"
+          width={1600}
+          height={300}
+          className="w-full h-auto object-cover"
+          priority
+        />
       </div>
 
-      <div className={'flex flex-col gap-2'}>
+      <div className={'flex flex-col gap-4'}>
         <h2 className={'text-2xl font-semibold text-[var(--color-text)]'}>¿¡A donde diablos va el dinero en esta casa!?</h2>
         <p className={'text-lg text-justify text-[var(--color-text)]'}>Si te has hecho esta pregunta alguna vez, no te preocupes, te tenemos cubierto. Con nuestra herramienta
           de gestión y monitoreo de finanzas, sabrás a donde va cada céntimo de tu dinero. Lo gastado no regresará,

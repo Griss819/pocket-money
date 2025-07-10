@@ -4,13 +4,18 @@
 declare const messages: {
   "HomePage": {
     "title": "Hola Mundo!",
-    "about": "Acerca de nosotros",
-    "login": "Acceder",
-    "signin": "Registrarse"
+    "about": "Acerca de nosotros"
   },
   "Metadata": {
     "title": "PocketMoney",
     "description": "App de gestión de economía para tu hogar"
+  },
+  "FormFields": {
+    "email": "Correo",
+    "password": "Contraseña",
+    "signUp": "Registrar",
+    "signIn": "Acceder",
+    "singInDesc": "Ingresa tus credenciales"
   }
 };
 export default messages;

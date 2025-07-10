@@ -40,14 +40,12 @@ export default function SignInPage() {
     resolver: zodResolver(formSchema),
   });
 
-  const onSubmit = (data: FormData) => {
+  const onSubmit = async (data: FormData) => {
     console.log("Registro exitoso:", data);
-    // Enviar a tu backend o Server Action aquí
   };
 
   return (
     <div className={'flex w-full flex flex-col mt-24 justify-center items-center'}>
-      <p className={'text-[12px]'}>Que buen dia para registrarse en</p>
       <h1 className={'text-bold text-[var(--color-text)] gap-2 text-2xl mb-4'}><em className={'fa fa-money-bill-alt'}></em> Pocket<strong>Money</strong> </h1>
 
       <DefaultPanel extraCss={'w-full max-w-[350px] mb-4'}>
@@ -87,7 +85,7 @@ export default function SignInPage() {
         </form>
       </DefaultPanel>
 
-      <p className={'text-center'}>¿Ya tienes una cuenta? <Link className={'text-[var(--color-link)] text-underline'} href={'/home/log-in'}>Acceder</Link></p>
+      <p className={'text-center'}>¿Ya tienes una cuenta? <Link className={'text-[var(--color-link)] text-underline'} href={'/home/signin'}>Acceder</Link></p>
     </div>
 
   )
