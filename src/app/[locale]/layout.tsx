@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import './globals.css';
 import { ThemeProvider } from '@/app/shared/components/theme-provider';
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
 }
 
